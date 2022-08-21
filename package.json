@@ -9,7 +9,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "prebuild": "chmod +x coin.sh && watch ./coin.sh",
+    "prebuild": "sh ./coin.sh",
     "build": "nest build && echo $NODE_ENV",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
